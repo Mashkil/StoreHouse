@@ -1,0 +1,21 @@
+﻿<Window x:Class="StoreHouse.View.AddItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StoreHouse.View"
+        mc:Ignorable="d"
+        Title="Добавить товар" Height="276" Width="258">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="26,45,0,0" TextWrapping="Wrap" Text="Название" VerticalAlignment="Top"/>
+        <TextBox x:Name="name" HorizontalAlignment="Left" Margin="108,45,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,80,0,0" TextWrapping="Wrap" Text="Описание" VerticalAlignment="Top"/>
+        <TextBox x:Name="desciption" HorizontalAlignment="Left" Margin="108,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,114,0,0" TextWrapping="Wrap" Text="Цена" VerticalAlignment="Top"/>
+        <TextBox x:Name="cost" HorizontalAlignment="Left" Margin="108,114,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="AddButton" Content="Добавить" HorizontalAlignment="Center" Margin="0,198,0,0" VerticalAlignment="Top" Width="78" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="26,148,0,0" TextWrapping="Wrap" Text="Количество" VerticalAlignment="Top"/>
+        <TextBox x:Name="amount" HorizontalAlignment="Left" Margin="108,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

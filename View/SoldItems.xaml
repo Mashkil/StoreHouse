@@ -1,0 +1,15 @@
+﻿<Window x:Class="StoreHouse.View.SoldItems"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StoreHouse.View"
+        mc:Ignorable="d"
+        Title="Проданные" Height="450" Width="837">
+    <Grid>
+        <DataGrid x:Name="grid" Margin="0,0,227,0"/>
+        <Button x:Name="showItems" Content="Показать товары" HorizontalAlignment="Left" Margin="658,85,0,0" VerticalAlignment="Top" Width="151" Click="showItems_Click"/>
+        <Button x:Name="goToStore" Content="Перейти на склад" HorizontalAlignment="Left" Margin="658,132,0,0" VerticalAlignment="Top" Width="151" Click="goToStore_Click"/>
+        <Button x:Name="goToAcceptedItems" Content="Перейти на Принятые" HorizontalAlignment="Left" Margin="658,178,0,0" VerticalAlignment="Top" Width="151" Click="goToAcceptedItems_Click"/>
+    </Grid>
+</Window>
